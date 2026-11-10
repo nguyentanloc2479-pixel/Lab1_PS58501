@@ -1,0 +1,25 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trợ giúp - Product Portal</title>
+  </head>
+  <body>
+    <h1 th:text="${appName}">Product Portal</h1>
+
+    <h2>Trang trợ giúp</h2>
+
+    <p th:text="${subject}">SOF3022 - Spring Boot MVC</p>
+
+    <p th:text="${semester}">Summer 2026</p>
+
+    <p th:text="${message}">Chào mừng bạn đến với trang trợ giúp</p>
+
+    <hr />
+
+    <h3>Menu điều hướng</h3>
+
+    <a href="/home/index">Trang chủ</a> | <a href="/home/about">Giới thiệu</a> |
+    <a href="/home/help">Trợ giúp</a>
+  </body>
+</html>
